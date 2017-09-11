@@ -108,11 +108,19 @@ docker run -it --rm \
 ### Email client settings :
 
 - IMAP/SMTP username : user@domain.tld
-- Incoming IMAP server : mail.domain.tld (your FQDN)
-- Outgoing SMTP server : mail.domain.tld (your FQDN)
+- Incoming IMAP server : mail.domain.com (your FQDN)
+- Outgoing SMTP server : mail.domain.com (your FQDN)
 - IMAP port : 993
 - SMTP port : 587
 - IMAP Encryption protocol : SSL/TLS
 - SMTP Encryption protocol : STARTTLS
 
 #### Setup Complete!
+## Credits
+All credit for the actual mailserver part of this docker goes to Hardware, I merely integrated the Redis server, and made it usable on UnRAID Servers via a template. If you like this product, please consider donating to hardware with the information below.
+
+### Donation
+
+My Bitcoin address : **1LwRr6jvzPHnZsxjk6u3wcfP555ZeC47Tg**
+
+This address is [signed cryptographically](https://keybase.io/hardware/sigchain#6f79301eac777d7aad942bdf2c32171e1e8f59694ea7125e7973a4f3ed4539d90f) to prove that it belongs to **me**. https://keybase.io/hardware
