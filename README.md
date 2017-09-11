@@ -107,7 +107,7 @@ docker run -it --rm \
 
 ### Email client settings :
 
-- IMAP/SMTP username : user@domain.tld
+- IMAP/SMTP username : user@domain.com
 - Incoming IMAP server : mail.domain.com (your FQDN)
 - Outgoing SMTP server : mail.domain.com (your FQDN)
 - IMAP port : 993
