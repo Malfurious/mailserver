@@ -130,8 +130,10 @@ docker run -d --name=mailserver \
   -v /mnt/docker/mailserver:/var/mail -v /mnt/docker/redis:/data \
   malfurious/mailserver:latest
 ```
-
+#### For a Guide on setting up a Reverse Proxy with SSL Certificates, follow the link below!
+https://github.com/Malfurious/mailserver/wiki/Reverse-Proxy-Configuration
 #### Setup Complete!
+
 ## Credits
 All credit for the actual mailserver part of this docker goes to Hardware, I merely integrated the Redis server, and made it usable on UnRAID Servers via a template. If you like this product, please consider donating to hardware with the information below.
 
