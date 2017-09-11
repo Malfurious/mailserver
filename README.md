@@ -20,6 +20,10 @@ Simple and full-featured mail server as a set of multiple docker images includes
 - Automated builds on DockerHub
 - Redis Server Cache Built-In
 
+#### Important Note
+This docker was built to be used with malfurious/roundcube-postfixadmin.
+Goto https://github.com/Malfurious/roundcube-postfixadmin for more information!
+
 ### System Requirements
 
 Please check, if your system meets the following minimum system requirements :
