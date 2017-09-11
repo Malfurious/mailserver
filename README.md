@@ -118,7 +118,7 @@ docker run -it --rm \
 #### Installation (Manually, not using UnRAID Template)
 Run the following command to pull the latest image: 'docker pull malfurious/mailserver:latest'
 Now, Run this to start the docker:
-'docker run -d --name=mailserver -p 25:25 -p 143:143 -p 587:587 -p 993:993 -p 4190:4190 -p 11334:11334 -e MAIL_HOST=mail.domain.com -e POST_USER=postfix -e POST_PASS=password -e POST_DB=postfix -e MYSQL_HOST=mariadb_ipaddress -e RSPAMD_PASSWORD=password -v /mnt/docker/mailserver:/var/mail -v /mnt/docker/redis:/data malfurious/mailserver:latest'
+```docker run -d --name=mailserver -p 25:25 -p 143:143 -p 587:587 -p 993:993 -p 4190:4190 -p 11334:11334 -e MAIL_HOST=mail.domain.com -e POST_USER=postfix -e POST_PASS=password -e POST_DB=postfix -e MYSQL_HOST=mariadb_ipaddress -e RSPAMD_PASSWORD=password -v /mnt/docker/mailserver:/var/mail -v /mnt/docker/redis:/data malfurious/mailserver:latest```
 
 #### Setup Complete!
 ## Credits
