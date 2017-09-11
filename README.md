@@ -135,10 +135,5 @@ https://github.com/Malfurious/mailserver/wiki/Reverse-Proxy-Configuration
 #### Setup Complete!
 
 ## Credits
-All credit for the actual mailserver part of this docker goes to Hardware, I merely integrated the Redis server, and made it usable on UnRAID Servers via a template. If you like this product, please consider donating to hardware with the information below.
+All credit for the actual mailserver part of this docker goes to Hardware, I merely integrated the Redis server, and made it usable on UnRAID Servers via a template. Follow the link below to view his original project.
 
-### Donation
-
-My Bitcoin address : **1LwRr6jvzPHnZsxjk6u3wcfP555ZeC47Tg**
-
-This address is [signed cryptographically](https://keybase.io/hardware/sigchain#6f79301eac777d7aad942bdf2c32171e1e8f59694ea7125e7973a4f3ed4539d90f) to prove that it belongs to **me**. https://keybase.io/hardware
