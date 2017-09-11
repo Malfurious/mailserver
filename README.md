@@ -11,7 +11,6 @@ Simple and full-featured mail server as a set of multiple docker images includes
 - **Zeyple** : automatic GPG encryption of all your e-mails
 - **Sieve** : email filtering (vacation auto-responder, auto-forward...etc)
 - **Fetchmail** : fetch e-mails from external IMAP/POP3 server into local mailbox
-- **Postfixadmin** : web based administration interface
 - **Unbound**: recursive caching DNS resolver with DNSSEC support
 - **NSD** : authoritative DNS server with DNSSEC support
 - **SSL** : lets encrypt, custom and self-signed certificates support
