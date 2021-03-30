@@ -129,6 +129,20 @@ docker run -d --name=mailserver \
   -v /mnt/docker/mailserver:/var/mail -v /mnt/docker/redis:/data \
   malfurious/mailserver:latest
 ```
+
+#### If you get the "Container IP not found with embedded DNS server..." Error
+If your error is in regards to the MariaDB/MySQL database container, add the following as an extra argument in Unraid. 
+```
+--add-host mariadb:<IP of your SQL Container>
+```
+If your error is in regards to the redis database container, add the following as an extra argument in Unraid. Note: Redis is included by default in this image.
+```
+--add-host redis:127.0.0.2
+```
+If you are hosting your own Redis just change that IP address to the one of your Redis. You can have both of these add host lines as below.
+```
+--add-host mariadb:<IP of your SQL Container> --add-host redis:127.0.0.2
+```
 #### For a Guide on setting up a Reverse Proxy with SSL Certificates, follow the link below!
 https://github.com/Malfurious/mailserver/wiki/Reverse-Proxy-Configuration
 #### Setup Complete!
